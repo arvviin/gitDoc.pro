@@ -1,0 +1,18 @@
+public class Swap {
+    public static void main(String[] args) {
+        int a = 111;
+        int b = 999;
+        System.out.println("before swapping the number");
+        System.out.println("a =" + a);
+        System.out.println("b =" + b);
+
+        int temp = a;
+        a = b;
+        b = temp;
+        System.out.println("after swapping");
+        System.out.println("a =" + a);
+        System.out.println("b =" + b);
+
+    }
+
+}
