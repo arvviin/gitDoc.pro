@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class UserName {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String name = " ";
+        while (name.isBlank()) {
+            System.out.println("Enter your name");
+            name = Scanner.nextline();
+        }
+        System.out.println("Hello" + name);
+    }
+}
