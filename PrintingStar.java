@@ -1,0 +1,24 @@
+
+import java.util.Scanner;
+
+public class PrintingStar {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        int rows;
+        int column;
+        System.out.println("Enter # rows");
+        rows = sc.nextInt();
+        System.out.println("Enter #columns");
+        column = sc.nextInt();
+        for (int i = 1; i <= rows; i++) {
+            for (int j = 1; j <= column; j++) {
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
+        sc.close();
+    }
+
+}
