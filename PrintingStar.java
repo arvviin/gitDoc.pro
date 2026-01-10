@@ -11,6 +11,8 @@ public class PrintingStar {
         rows = sc.nextInt();
         System.out.println("Enter #columns");
         column = sc.nextInt();
+        System.out.println("Enter the String");
+
         for (int i = 1; i <= rows; i++) {
             for (int j = 1; j <= column; j++) {
                 System.out.print("*");
