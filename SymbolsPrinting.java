@@ -6,9 +6,9 @@ public class SymbolsPrinting {
         int column;
         int rows;
         String Symbol = "";
-        System.out.println("Enter number of rows");
+        System.out.println("Enter number of rows ");
         rows = sc.nextInt();
-        System.out.println("Enter number of column");
+        System.out.println("Enter number of column ");
         column = sc.nextInt();
         System.out.println("Enter your Symbol");
         Symbol = sc.next();
