@@ -6,8 +6,9 @@ public class UserName {
         String name = " ";
         while (name.isBlank()) {
             System.out.println("Enter your name");
-            name = Scanner.nextline();
+            name = sc.nextLine();
         }
-        System.out.println("Hello" + name);
+        System.out.println("Hello " + name);
+        sc.close();
     }
 }
