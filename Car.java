@@ -1,10 +1,11 @@
 public class Car {
     public static void main(String[] args) {
-        Tostop();
+        Tostop();// if you want to call any function -call();
         Speedthecar();
         Todrive();
     }
 
+    // functions
     public static void Todrive() {
         System.out.println("you have to drive the car");
     }
