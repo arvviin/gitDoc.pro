@@ -1,5 +1,6 @@
 public class ArrayNull {
     public static void main(String[] args) {
+        // here we havent insert any elements into a array
 
         String[] arr = new String[5];
         System.out.println(arr[3]);
